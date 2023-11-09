@@ -128,7 +128,7 @@ $(function () {
          username: $form.find('input[name="username"]').val(),
          password: $form.find('input[name="password"]').val()
       };
-
+      console.log(JSON.stringify(loginData))
       doLogin(formData);
    });
 
